@@ -54,3 +54,4 @@ set showcmd
 set nobackup
 "colorscheme rainbow_neon
 set cindent
+syntax on
