@@ -58,3 +58,9 @@ syntax on
 
 "使用智能大小写搜索
 set ignorecase smartcase
+
+"终端下输入O时出现延迟解决方案， 因为<ECS>O是某些服务指令到开头 set termcap |
+"help timeout
+set timeout timeoutlen=5000 ttimeoutlen=100
+
+
