@@ -64,3 +64,5 @@ set ignorecase smartcase
 set timeout timeoutlen=5000 ttimeoutlen=100
 
 
+"我在ubuntu下到backspace一直不能删除缩进和行， 原因不明，因此设置该项
+set backspace=start,indent,eol
