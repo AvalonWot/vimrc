@@ -55,3 +55,6 @@ set nobackup
 "colorscheme rainbow_neon
 set cindent
 syntax on
+
+"使用智能大小写搜索
+set ignorecase smartcase
