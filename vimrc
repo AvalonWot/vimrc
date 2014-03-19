@@ -66,3 +66,20 @@ set timeout timeoutlen=5000 ttimeoutlen=100
 
 "我在ubuntu下到backspace一直不能删除缩进和行， 原因不明，因此设置该项
 set backspace=start,indent,eol
+
+"关于超级补全插件YCM的设置, 参考自http://www.perlface.eu/?p=716 作者kelven
+"在注释里也能使用补全
+let g:ycm_complete_in_comments=1
+"默认直接加载.ycm_extra_conf.py 不用再提示
+let g:ycm_confirm_extra_conf=0
+"最小补全字符为1， 键入一个字符就开始补全
+let g:ycm_min_num_of_chars_for_completion=1
+"语法关键字补全， 不明项
+let g:ycm_seed_identifiers_with_syntax=1
+"直接打开补全窗口到快捷键， 在补全顶级函数到时候特别有用，
+"不过为什么我设置M-任何键都不行？
+let g:ycm_key_invoke_completion='<C-\>'
+"让YCM能在C源文件中正常工作
+let g:ycm_semantic_triggers={}
+let g:ycm_semantic_triggers.c=['->','.',' ','(','[','&']
+
