@@ -83,3 +83,8 @@ let g:ycm_key_invoke_completion='<C-\>'
 let g:ycm_semantic_triggers={}
 let g:ycm_semantic_triggers.c=['->','.',' ','(','[','&']
 
+"设置缩进
+set expandtab
+set softtabstop=2
+set shiftwidth=2
+
