@@ -84,7 +84,10 @@ let g:ycm_semantic_triggers={}
 let g:ycm_semantic_triggers.c=['->','.',' ','(','[','&']
 
 "设置缩进
-set expandtab
-set softtabstop=2
+set softtabstop=0
 set shiftwidth=2
+set tabstop=2
+"显示tab为>-
+set listchars=tab:>-
+set list
 
